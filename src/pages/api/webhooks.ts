@@ -25,8 +25,8 @@ export const config = {
 
 const relevantEvents = new Set([
   'checkout.session.completed',
-  'customer.subscription.updated',
   'customer.subscription.deleted',
+  'customer.subscription.updated',
 ]);
 
 const webhooks = async (request: NextApiRequest, response: NextApiResponse) => {
