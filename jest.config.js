@@ -18,5 +18,5 @@ module.exports = {
     '!src/**/_document.tsx',
     '!**/node_modules/**',
   ],
-  coverageReporters: ['lcov', 'json'],
+  coverageReporters: ['json', 'lcov'],
 };
